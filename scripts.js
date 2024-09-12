@@ -1,5 +1,5 @@
-const apiKey = 'f85867597d52c81ecbf1beb199a3448c'; // Replace with your OpenWeatherMap API Key
-
+const apiKey = '-----Add Your API KEY From open waether map -----'; // Replace with your OpenWeatherMap API Key
+// webiste ---> https://openweathermap.org
 // Function to get weather by user's current location
 function getWeatherByLocation(lat, lon) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`)
